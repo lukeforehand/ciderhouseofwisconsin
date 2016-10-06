@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
 @import url("font-awesome.min.css");
 
 /*
@@ -1069,7 +1069,7 @@
 /* Basic */
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Cormorant Garamond', sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
@@ -1091,12 +1091,12 @@
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: #DC143C;
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #DC143C !important;
 		}
 
 		a img {
@@ -1353,7 +1353,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #DC143C;
 	}
 
 		input[type="button"]:hover,
@@ -1361,7 +1361,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #DC143C;
 			color: #fff !important;
 		}
 
@@ -1370,7 +1370,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #DC143C;
 			top: 1px;
 		}
 
@@ -1388,7 +1388,7 @@
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #4f4f4f;
+				background-color: #DC143C;
 				color: #fff !important;
 			}
 
@@ -1397,7 +1397,7 @@
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #3f3f3f;
+				background-color: #DC143C;
 			}
 
 /* List */
