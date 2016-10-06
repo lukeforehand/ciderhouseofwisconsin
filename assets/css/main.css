@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
 @import url("font-awesome.min.css");
 
 /*
@@ -1069,9 +1069,9 @@
 /* Basic */
 
 	body, input, textarea, select {
-		font-family: 'Lora', sans-serif;
+		font-family: 'Cormorant Garamond', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #555;
 		font-weight: 300;
 	}
 
