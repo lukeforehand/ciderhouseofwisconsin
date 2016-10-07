@@ -2,7 +2,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700');
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,700");
 @import url('font-awesome.min.css');
 
 /*
@@ -50,9 +50,9 @@
 /* Basic */
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Cormorant Garamond', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #666;
 		font-weight: 300;
 
 		&.is-loading * {
@@ -63,11 +63,11 @@
 
 	a {
 		@include vendor('transition', 'color .2s ease-in-out');
-		color: #43B3E0;
+		color: #CC143C;
 		text-decoration: underline;
 
 		&:hover {
-			color: #43bff0 !important;
+			color: #EC143C !important;
 		}
 
 		img {
@@ -173,7 +173,7 @@
 
 			&:focus {
 				background: #fafafa;
-				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+				box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #EC143C;
 			}
 		}
 
@@ -313,15 +313,15 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #CC143C;
 
 		&:hover {
-			background-color: #43bff0;
+			background-color: #EC143C;
 			color: #fff !important;
 		}
 
 		&:active {
-			background-color: #3BA8D3;
+			background-color: #DC143C;
 			top: 1px;
 		}
 
