@@ -1359,10 +1359,10 @@ ol.default {
 
   /* Wrappers */
   .wrapper {
-    padding: 8em 0 8em 0;
+    padding: 4em 0 8em 0;
     text-align: center; }
     .wrapper.first {
-      padding-top: 12em; }
+      padding-top: 5em; }
 
   /* Nav */
   #nav a {
@@ -1429,7 +1429,7 @@ ol.default {
     padding: 5em 0 5em 0;
     text-align: center; }
     .wrapper.first {
-      padding-top: 4em; }
+      padding-top: 9em; }
     .wrapper.style4 .row-special {
       margin: 2em 0 0 0;
       padding: 2em 0 2em 0; }
