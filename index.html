@@ -205,19 +205,204 @@
             <header>
                 <h2>Retail Locations</h2>
             </header>
-<!--
             <div id="map" style="height:400px;width:100%;"></div>
             <script>
+var addresses = [{ name: 'NEIL\'S LIQUOR',
+  link: 'https://goo.gl/maps/RPiyxjQ65CWMXs6g8',
+  address: '204 S CENTURY AVE. # B WAUNAKEE, WI 53597',
+  location: { lat: 43.1896822, lng: -89.4611819 } },
+{ name: 'CANNERY WINE & SPIRITS',
+  link: 'https://g.page/cannery-wine-and-spirits?share',
+  address: '1120 W. MAIN ST. STE. 2 SUN PRAIRIE, WI 53590',
+  location: { lat: 43.1813777, lng: -89.2317147 } },
+{ name: 'HY-VEE',
+  link: 'https://goo.gl/maps/6yjfURQGeyLwq4GbA',
+  address: '2920 FITCHRONA RD. FITCHBURG, WI 53719',
+  location: { lat: 43.0133009, lng: -89.4796819 } },
+{ name: 'BARRIQUES - FITCHBURG',
+  link: 'https://goo.gl/maps/naAtXxCYepDXoUFr6',
+  address: '5957 MCKEE RD. FITCHBURG, WI 53719',
+  location: { lat: 43.0147951, lng: -89.4580423 } },
+{ name: 'MILLER & SONS SUPERMARKET',
+  link: 'https://goo.gl/maps/C6Yo9Dzznc92',
+  address: '1845 SPRINGDALE ST. MT. HOREB, WI 53572',
+  location: { lat: 43.00882, lng: -89.713223 } },
+{ name: 'VERONA WINE CELLAR',
+  link: 'https://goo.gl/maps/xihA8SyZL1eCzStZ6',
+  address: '1015 N. EDGE TRAIL VERONA, WI 53593',
+  location: { lat: 43.0020743, lng: -89.5305769 } },
+{ name: 'RILEY\'S WINES OF THE WORLD',
+  link: 'https://goo.gl/maps/j36YUuQAGkYP35co6',
+  address: '402 W GORHAM ST. MADISON, WI 53703',
+  location: { lat: 43.0742942, lng: -89.39309 } },
+{ name: 'HAPPY HOUSE LIQUOR',
+  link: 'https://goo.gl/maps/2w4LtPxeDsSWNQjW7',
+  address: '1121 ELMWOOD AVE. BELOIT, WI 53511',
+  location: { lat: 42.5411041, lng: -89.0231234 } },
+{ name: 'STOUGHTON SPIRITS',
+  link: 'https://goo.gl/maps/NMACtv8E1tJ2',
+  address: '965 N PAGE ST. STOUGHTON, WI 53589',
+  location: { lat: 42.9266316, lng: -89.221944 } },
+{ name: 'SENDIK\'S FINE FOODS',
+  link: 'https://g.page/sendiksfinefoods?share',
+  address: '2704, 18985 W. CAPITOL DR. BROOKFIELD, WI 53045',
+  location: { lat: 43.0902264, lng: -88.1483712 } },
+{ name: 'BRENNAN\'S CELLARS',
+  link: 'https://goo.gl/maps/xk5tWBriL562',
+  address: '8210 WATTS RD. MADISON, WI 53719',
+  location: { lat: 43.0556119, lng: -89.5244744 } },
+{ name: 'TOTAL WINE & MORE',
+  link: 'https://goo.gl/maps/XtTMNhahPym',
+  address: '17300 W BLUEMOUND RD. SUITE 200 BROOKFIELD, WI 53045',
+  location: { lat: 43.0377793, lng: -88.1283761 } },
+{ name: 'AVENUE WINE & LIQUOR',
+  link: 'https://goo.gl/maps/CJQEwAx81fLPz9TZ8',
+  address: '4075 S. HOWELL AVE. MILWAUKEE, WI 53207',
+  location: { lat: 42.9703118, lng: -87.9098769 } },
+{ name: 'MAHEN\'S LIQUOR',
+  link: 'https://goo.gl/maps/PjMxYGowo3H2',
+  address: '905 N MAIN ST. OREGON, WI 53575',
+  location: { lat: 42.9403118, lng: -89.3838395 } },
+{ name: 'LAKESIDE LIQUOR',
+  link: 'https://goo.gl/maps/cF36HXGKaGmBKHpt6',
+  address: '214 N MAIN ST. PARDEEVILLE, WI 53954',
+  location: { lat: 43.5393474, lng: -89.299543 } },
+{ name: 'STAR LIQUOR',
+  link: 'https://g.page/star-liquor-madison?share',
+  address: '1209 WILLIAMSON ST. MADISON, WI 53703',
+  location: { lat: 43.0832907, lng: -89.3637955 } },
+{ name: 'BREWS WINE & SPIRITS LLC',
+  link: 'https://goo.gl/maps/FaHYiMW4VM7A58xf7',
+  address: '1256 CAPITOL DR. #600 PEWAUKEE, WI 53072',
+  location: { lat: 43.08195389999999, lng: -88.2365341 } },
+{ name: 'DISCOUNT LIQUOR',
+  link: 'https://goo.gl/maps/pDYThBxjAzkQBBkw9',
+  address: '5031 W. OKLAHOMA AVE. MILWAUKEE, WI 53219',
+  location: { lat: 42.9880917, lng: -87.9775021 } },
+{ name: 'TRIXIE\'S LIQUOR',
+  link: 'https://goo.gl/maps/Secx2DvMLR32',
+  address: '246 OAK ST. MADISON, WI 53704',
+  location: { lat: 43.1029908, lng: -89.3435724 } },
+{ name: 'BADGER SPIRITS',
+  link: 'https://goo.gl/maps/jJDWZQjvy4WQJS2S9',
+  address: '1507 CENTER AVE. JANESVILLE, WI 53546',
+  location: { lat: 42.6586737, lng: -89.030702 } },
+{ name: 'STINEBRIKE\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/CD4iRJwWN98qJaw47',
+  address: '100 E. GENEVA SQUARE LAKE GENEVA, WI 53147',
+  location: { lat: 42.6060646, lng: -88.4239073 } },
+{ name: 'FRANK\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/uvqyac7wa6AZreij6',
+  address: '58 W. MARKET ST. ELKHORN, WI 53121',
+  location: { lat: 42.6924352, lng: -88.5440261 } },
+{ name: 'BARRIQUES - MONROE ST.',
+  link: 'https://goo.gl/maps/G3bL9BMNjwtrkVZU8',
+  address: '1825 MONROE ST. MADISON, WI 53711',
+  location: { lat: 43.06504229999999, lng: -89.41671400000001 } },
+{ name: 'TOTAL WINE & MORE',
+  link: 'https://goo.gl/maps/oHnydLeMj712',
+  address: '400 W TOWNE MALL MADISON, WI 53719',
+  location: { lat: 43.0553514, lng: -89.50550849999999 } },
+{ name: 'TOBACCO SHACK LIQUOR',
+  link: 'https://goo.gl/maps/cou7RgV1CLcREMPL9',
+  address: '1212 CRANSTON RD. BELOIT, WI 53511',
+  location: { lat: 42.5320178, lng: -89.02254599999999 } },
+{ name: 'MC FARLAND LIQUORS',
+  link: 'https://goo.gl/maps/nnTvXoxeQBy8zsU57',
+  address: '4716 FARWELL ST. MCFARLAND, WI 53558',
+  location: { lat: 43.01361989999999, lng: -89.30096739999999 } },
+{ name: 'GENEVA LIQUORS',
+  link: 'https://goo.gl/maps/dvsLs7K3MJv7y4xj6',
+  address: '797 S. WELLS ST. LAKE GENEVA, WI 53147',
+  location: { lat: 42.5827822, lng: -88.42467429999999 } },
+{ name: 'TOTAL WINE & MORE',
+  link: 'https://goo.gl/maps/2dPeCWnusVP2',
+  address: '8700 WEST SURA LANE GREENFIELD, WI 53228',
+  location: { lat: 42.9602443, lng: -88.0207746 } },
+{ name: 'ROY\'S MARKET',
+  link: 'https://goo.gl/maps/sfLFZhWUsrxuWrbE9',
+  address: '600 WI-69 NEW GLARUS, WI 53574',
+  location: { lat: 42.8137538, lng: -89.6306815 } },
+{ name: 'BARRIQUES - MIDDLETON',
+  link: 'https://goo.gl/maps/yN6xREHLfiezUNNN6',
+  address: '1901 CAYUGA ST. MIDDLETON, WI 53562',
+  location: { lat: 43.0961045, lng: -89.513787 } },
+{ name: 'CONSUMER OUTLET BEVERAGE',
+  link: 'https://goo.gl/maps/pgysXX5efARHM5Ju6',
+  address: '5313 S. 108TH ST. HALES CORNERS, WI 53130',
+  location: { lat: 42.9483202, lng: -88.0495275 } },
+{ name: 'WIPPERFURTH\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/ek7vZ5PSEKVXyM7q9',
+  address: '205 N. HOLIDAY DR. WAUNAKEE, WI 53597',
+  location: { lat: 43.1933002, lng: -89.46607949999999 } },
+{ name: 'CONCORD GENERAL STORE',
+  link: 'https://goo.gl/maps/exDJ3sDj59y',
+  address: 'N6485 COUNTY RD. F OCONOMOWOC, WI 53066',
+  location: { lat: 43.0765318, lng: -88.5901956 } },
+{ name: 'BADGER LIQUOR STORE',
+  link: 'https://goo.gl/maps/Tzyy9AeYeq7iryQu6',
+  address: '1047 W. MASON ST. GREEN BAY, WI 54303',
+  location: { lat: 44.5148682, lng: -88.041167 } },
+{ name: 'HY-VEE',
+  link: 'https://goo.gl/maps/2zyeXbenREeuUprFA',
+  address: '3801 E. WASHINGTON AVE. MADISON, WI 53704',
+  location: { lat: 43.1177159, lng: -89.3183571 } },
+{ name: 'RAY\'S WINE & SPIRITS',
+  link: 'https://goo.gl/maps/ypevbeVHJLC2',
+  address: '8930 W NORTH AVE. WAUWATOSA, WI 53226',
+  location: { lat: 43.060726, lng: -88.02444039999999 } },
+{ name: 'STEVE\'S WINE BEER & SPIRITS',
+  link: 'https://goo.gl/maps/YQ4B1vpUoNjpfgU97',
+  address: '6227 MCKEE RD. FITCHBURG, WI 53719',
+  location: { lat: 43.01488070000001, lng: -89.47650680000001 } },
+{ name: 'SONOMA CELLARS',
+  link: 'https://goo.gl/maps/JRBJfhN4TWzNtf34A',
+  address: '1290 SUMMIT AVE. OCONOMOWOC, WI 53066',
+  location: { lat: 43.0899577, lng: -88.4731322 } },
+{ name: 'METCALFE\'S MARKET',
+  link: 'https://goo.gl/maps/h4XwJTXmgnrRmoVbA',
+  address: '7455 MINERAL POINT RD. MADISON, WI 53719',
+  location: { lat: 43.057899, lng: -89.51052 } },
+{ name: 'SONOMA CELLARS LLC',
+  link: 'https://goo.gl/maps/LhGbXQGDcjwZCEhz6',
+  address: '1807 GENEVA ST. DELAVAN, WI 53115',
+  location: { lat: 42.6284394, lng: -88.6133151 } },
+{ name: 'STINEBRIKE\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/BwvpE4zU7zycdHZm8',
+  address: '1414 GENEVA ST. DELEVAN, WI 53115',
+  location: { lat: 42.625543, lng: -88.62368269999999 } }];
             function initMap() {
-                // The location of Uluru
-                var uluru = {lat: -25.344, lng: 131.036};
-                // The map, centered at Uluru
-                var map = new google.maps.Map(document.getElementById('map'), {zoom: 4, center: uluru});
-                var marker = new google.maps.Marker({position: uluru, map: map});
+                var bounds = new google.maps.LatLngBounds();
+                var map = new google.maps.Map(document.getElementById('map'));
+                for (var i in addresses) {
+                    mark(map, addresses[i], bounds);
+                }
+            }
+            function mark(map, address, bounds) {
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: address.location,
+                    title: address.name
+                });
+                var infowindow = new google.maps.InfoWindow({
+                    content: '<div id="content">' +
+                    '    <div id="siteNotice">' +
+                    '    </div>' +
+                    '    <div>' +
+                    '        <p>' + address.name + '</p>' +
+                    '        <a target="_blank" href="' + address.link + '">' + address.address + '</a></p>' +
+                    '    </div>' +
+                    '</div>'
+                });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+                bounds.extend(marker.getPosition());
+                map.fitBounds(bounds);
             }
             </script>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG3cQZKjSHLPDCJ9xnzAMFCmsEqWX7l1c&callback=initMap"></script>
--->
+            <!--
             <div class="container">
                 <br />
                 <p><b>NEW LOCATIONS!</b></p>
@@ -620,6 +805,7 @@
                     </div>
                 </div>
             </div>
+            -->
             <footer>
                 <p>Our ciders are on tap at a number of bars and restaurants in Madison and Milwaukee.</p>
                 <p>If you are interested in selling our product and appearing on this list, please contact us below:</p>

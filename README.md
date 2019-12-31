@@ -7,3 +7,9 @@ echo -e "Address\tCounty\n"\
     xargs -I {} curl -s 'http://uscounties.com/zipcodes/search.pl?query={}&stpos=0' | grep '"results"' | cut -d'>' -f9 | cut -d'<' -f1 | sed 's/^ //g') | \
 sort -k2 -t$'\t')" > address_by_county.csv
 ```
+
+# script for getting geocodes for list of addresses
+```
+npm install @google/maps
+node code_address.js
+```
