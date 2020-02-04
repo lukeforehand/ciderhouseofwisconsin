@@ -204,6 +204,7 @@
             <header>
                 <h2>Retail Locations</h2>
             </header>
+            New Locations are marked in GREEN
             <div id="map" style="height:600px;width:100%;"></div>
             <script>
 var addresses = [{ name: 'NEIL\'S LIQUOR',
@@ -365,7 +366,28 @@ var addresses = [{ name: 'NEIL\'S LIQUOR',
 { name: 'STINEBRIKE\'S PIGGLY WIGGLY',
   link: 'https://goo.gl/maps/BwvpE4zU7zycdHZm8',
   address: '1414 GENEVA ST. DELEVAN, WI 53115',
-  location: { lat: 42.625543, lng: -88.62368269999999 } }];
+  location: { lat: 42.625543, lng: -88.62368269999999 } },
+{ name: 'PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/MnGEB7hjZT4XKHW88',
+  address: '1827 PRAIRIE AVE, BELOIT, WI 53511',
+  location: { lat: 42.5238664, lng: -89.010016 },
+  added: 1580825385007 },
+{ name: 'VIKING LIQUOR',
+  link: 'https://goo.gl/maps/oHE5U8VMNrpA3cHdA',
+  address: '1625 E MAIN ST, REEDSBURG, WI 53959',
+  location: { lat: 43.533082, lng: -89.98559399999999 },
+  added: 1580825385012 },
+{ name: 'PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/1mWoJwatCj3P8PPfA',
+  address: '8 N COUNTY RD M, EVANSVILLE, WI 53536',
+  location: { lat: 42.7798771, lng: -89.27337159999999 },
+  added: 1580825385013 },
+{ name: 'SAUK PRAIRIE MAR,KET',
+  link: 'https://goo.gl/maps/m51dFgCdpWhEuBvt7',
+  address: '645 3RD ST, PRAIRIE DU SAC, WI 53578',
+  location: { lat: 43.29237759999999, lng: -89.723396 },
+  added: 1580825385104 }
+];
             function initMap() {
                 var bounds = new google.maps.LatLngBounds();
                 var map = new google.maps.Map(document.getElementById('map'));
@@ -374,9 +396,16 @@ var addresses = [{ name: 'NEIL\'S LIQUOR',
                 }
             }
             function mark(map, address, bounds) {
+                var icon = null;
+                var now = new Date().getTime();
+                if (now - address.added < 2592000000) {
+                  // location was added less than 30 days ago
+                  icon = 'https://maps.gstatic.com/mapfiles/markers2/icon_green.png';
+                }
                 var marker = new google.maps.Marker({
                     map: map,
                     position: address.location,
+                    icon: icon,
                     title: address.name
                 });
                 var infowindow = new google.maps.InfoWindow({
