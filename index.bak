@@ -1,0 +1,880 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Cider House of Wisconsin</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+        <!--[if lte IE 8]>
+        <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css"/>
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+        <!--[if lte IE 9]>
+        <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '365029141061310');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" src="https://www.facebook.com/tr?id=365029141061310&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+
+    </head>
+    <body>
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cider">Cider</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#find">Retail Locations</a></li>
+            <!--<li><a href="#pressing">Pressing</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <div class="wrapper style1 first">
+        <article class="container" id="home">
+            <div class="row">
+                <div class="12u 12u(mobile)">
+                    <span class="image fit"><img src="images/background.jpg" alt=""/></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u 12u(mobile)">
+                    <header>
+                      <p style="text-align:left">We craft our cider with care from fresh-pressed juice of select varieties of real apples (not concentrate). Careful fermentation and natural real ingredients allow our ciders to develop their unique and complex flavors, which are sure to please you and your customers. All of our ciders are lightly carbonated and fermented to approximately 7% ABV.</p>
+                      <p style="text-align:left">We planted our orchard 30 years ago. As the trees grew and began producing apples, we pressed fresh juice commercially for 10 years, and for the past 7 years we have been fermenting hard cider from our own apple juice and that of our neighboring orchards.</p>
+                    </header>
+                </div>
+                <div class="6u 12u(mobile)">
+                    <div class="fb-page" data-href="https://www.facebook.com/CiderHouseWI"
+                         data-tabs="timeline"
+                         data-width="500"
+                         data-height="500"
+                         data-small-header="true"
+                         data-adapt-container-width="true"
+                         data-hide-cover="true"
+                         data-hide-cta="true"
+                         data-show-facepile="false">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Cider -->
+    <div class="wrapper style2">
+        <article id="cider">
+            <header>
+                <h2>Our Cider</h2>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="4u 6u(mobile)">
+                        <article class="box style2">
+                            <a class="image featured" target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-black-dragon/72357"><img src="images/black_dragon.png" alt=""/></a>
+                            <h3>Black Dragon</h3>
+                            <p>Fully dry British-style cider with tannic and sharp apple flavors enhancing the robust finish.<br /><br /></p>
+                            <a target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-black-dragon/72357"><img src="images/untappd.png" alt=""/></a>
+                        </article>
+                    </div>
+                    <div class="4u 6u(mobile)">
+                        <article class="box style2">
+                            <a class="image featured" target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-cardinal-rule-old-fashion/2793887"><img src="images/cardinal_rule.png" alt=""/></a>
+                            <h3>Cardinal Rule Old Fashion</h3>
+                            <p>Wisconsin’s cocktail in a cider. Muddled oranges, maraschino cherries, and bitters combine for our take on a brandy Old Fashioned.</p>
+                            <a target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-cardinal-rule-old-fashion/2793887"><img src="images/untappd.png" alt=""/></a>
+                        </article>
+                    </div>
+                    <div class="4u 6u(mobile)">
+                        <article class="box style2">
+                            <a class="image featured" target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-cherry-flight/1917314"><img src="images/cherry_flight.png" alt=""/></a>
+                            <h3>Cherry Flight</h3>
+                            <p>Sweet cider enriched with tart cherry juice from Door County, WI for a sumptuous, healthy drink.<br /><br /></p>
+                            <a target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-cherry-flight/1917314"><img src="images/untappd.png" alt=""/></a>
+                        </article>
+                    </div>
+                    <div class="4u 6u(mobile)">
+                        <article class="box style2">
+                            <a class="image featured" target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-meowee-wowee/970421"><img src="images/meowee_wowee.png" alt=""/></a>
+                            <h3>Meowee Wowee</h3>
+                            <p>Honey-infused cider with an old European blend of spices, including ginger and lemon.<br /><br /><br /></p>
+                            <a target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-meowee-wowee/970421"><img src="images/untappd.png" alt=""/></a>
+                        </article>
+                    </div>
+                    <div class="4u 6u(mobile)">
+                        <article class="box style2">
+                            <a class="image featured" target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-pooch/211577"><img src="images/pooch.png" alt=""/></a>
+                            <h3>Pooch</h3>
+                            <p>Antique, aromatic apples provide a symphony of lighter tasting cider that’s just sweet enough. Acidity balances the sweetness with carbonization to make your tongue sparkle.</p>
+                            <a target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-pooch/211577"><img src="images/untappd.png" alt=""/></a>
+                        </article>
+                    </div>
+                    <div class="4u 6u(mobile)">
+                        <article class="box style2">
+                            <a class="image featured" target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-zozo-cider/2783502"><img src="images/zoso.png" alt=""/></a>
+                            <h3>Zoso</h3>
+                            <p>Mojito-flavored cider made with real mint and lime is perfect for relaxing anytime.<br /><br /><br /></p>
+                            <a target="_blank" href="https://untappd.com/b/cider-house-of-wisconsin-zozo-cider/2783502"><img src="images/untappd.png" alt=""/></a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Events -->
+    <div class="wrapper style3">
+        <article id="events">
+            <header>
+                <h2>Events</h2>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div id="events" class="12u 12u(mobile)">
+                        <div class="fb-page" data-href="https://www.facebook.com/CiderHouseWI"
+                             data-tabs="events"
+                             data-width="500"
+                             data-height="600"
+                             data-small-header="true"
+                             data-adapt-container-width="true"
+                             data-hide-cover="true"
+                             data-hide-cta="true"
+                             data-show-facepile="false">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Order -->
+    <div class="wrapper style3">
+        <article id="order">
+            <header>
+                <h2>Order Cider</h2>
+            </header>
+            <!-- VinoShipper Wine List Integration -->
+            <div id="vs-winelist"></div>
+            <script type="text/javascript">
+            //customization parameters
+            var vsDisableResize = false;
+            var vsCssUrl = "";
+            var vsWineryId = "1028";
+            //Do not modify this code block
+            var _0x3ffd=['addEventListener','cookie',';path=/;samesite=none;secure;','document','vsCartIdEvent','substr','detail','split','vsCartId','indexOf'];(function(_0x5dc99b,_0x3ffdef){var _0x2f6774=function(_0x506b7b){while(--_0x506b7b){_0x5dc99b['push'](_0x5dc99b['shift']());}};_0x2f6774(++_0x3ffdef);}(_0x3ffd,0x7c));var _0x2f67=function(_0x5dc99b,_0x3ffdef){_0x5dc99b=_0x5dc99b-0x0;var _0x2f6774=_0x3ffd[_0x5dc99b];return _0x2f6774;};var vsSetC=function(_0x19eb74,_0x493cf8){document['cookie']=_0x19eb74+'='+escape(_0x493cf8)+_0x2f67('0x8');};var vsGetC=function(_0x38c5e9){var _0x477610,_0x4ef5c4,_0x2f41c0,_0x7b31b4=document[_0x2f67('0x7')][_0x2f67('0x3')](';');for(_0x477610=0x0;_0x477610<_0x7b31b4['length'];_0x477610++){_0x4ef5c4=_0x7b31b4[_0x477610][_0x2f67('0x1')](0x0,_0x7b31b4[_0x477610][_0x2f67('0x5')]('='));_0x2f41c0=_0x7b31b4[_0x477610]['substr'](_0x7b31b4[_0x477610][_0x2f67('0x5')]('=')+0x1);_0x4ef5c4=_0x4ef5c4['replace'](/^\s+|\s+$/g,'');if(_0x4ef5c4==_0x38c5e9){return unescape(_0x2f41c0);}}};var vsCartIdListener=function(_0x513b12){if(!vsCartId){vsCartId=_0x513b12[_0x2f67('0x2')];vsSetC(_0x2f67('0x4'),vsCartId);}};var vsCartId=vsGetC(_0x2f67('0x4'));window[_0x2f67('0x9')][_0x2f67('0x6')](_0x2f67('0x0'),vsCartIdListener,![]);
+            </script>
+            <script src="https://vinoshipper.com/iframe/v3/injector.js"></script>
+            <!-- End VinoShipper Wine List Integration  -->
+        </article>
+    </div>
+
+    <!-- Retail Locations -->
+    <div class="wrapper style3">
+        <article id="find">
+            <header>
+                <h2>Retail Locations</h2>
+            </header>
+            New Locations are marked in GREEN
+            <div id="map" style="height:600px;width:100%;"></div>
+            <script>
+var addresses = [{ name: 'NEIL\'S LIQUOR',
+  link: 'https://goo.gl/maps/RPiyxjQ65CWMXs6g8',
+  address: '204 S CENTURY AVE. # B WAUNAKEE, WI 53597',
+  location: { lat: 43.1896822, lng: -89.4611819 } },
+{ name: 'CANNERY WINE & SPIRITS',
+  link: 'https://g.page/cannery-wine-and-spirits?share',
+  address: '1120 W. MAIN ST. STE. 2 SUN PRAIRIE, WI 53590',
+  location: { lat: 43.1813777, lng: -89.2317147 } },
+{ name: 'HY-VEE',
+  link: 'https://goo.gl/maps/6yjfURQGeyLwq4GbA',
+  address: '2920 FITCHRONA RD. FITCHBURG, WI 53719',
+  location: { lat: 43.0133009, lng: -89.4796819 } },
+{ name: 'BARRIQUES - FITCHBURG',
+  link: 'https://goo.gl/maps/naAtXxCYepDXoUFr6',
+  address: '5957 MCKEE RD. FITCHBURG, WI 53719',
+  location: { lat: 43.0147951, lng: -89.4580423 } },
+{ name: 'MILLER & SONS SUPERMARKET',
+  link: 'https://goo.gl/maps/C6Yo9Dzznc92',
+  address: '1845 SPRINGDALE ST. MT. HOREB, WI 53572',
+  location: { lat: 43.00882, lng: -89.713223 } },
+{ name: 'VERONA WINE CELLAR',
+  link: 'https://goo.gl/maps/xihA8SyZL1eCzStZ6',
+  address: '1015 N. EDGE TRAIL VERONA, WI 53593',
+  location: { lat: 43.0020743, lng: -89.5305769 } },
+{ name: 'RILEY\'S WINES OF THE WORLD',
+  link: 'https://goo.gl/maps/j36YUuQAGkYP35co6',
+  address: '402 W GORHAM ST. MADISON, WI 53703',
+  location: { lat: 43.0742942, lng: -89.39309 } },
+{ name: 'HAPPY HOUSE LIQUOR',
+  link: 'https://goo.gl/maps/2w4LtPxeDsSWNQjW7',
+  address: '1121 ELMWOOD AVE. BELOIT, WI 53511',
+  location: { lat: 42.5411041, lng: -89.0231234 } },
+{ name: 'STOUGHTON SPIRITS',
+  link: 'https://goo.gl/maps/NMACtv8E1tJ2',
+  address: '965 N PAGE ST. STOUGHTON, WI 53589',
+  location: { lat: 42.9266316, lng: -89.221944 } },
+{ name: 'SENDIK\'S FINE FOODS',
+  link: 'https://g.page/sendiksfinefoods?share',
+  address: '2704, 18985 W. CAPITOL DR. BROOKFIELD, WI 53045',
+  location: { lat: 43.0902264, lng: -88.1483712 } },
+{ name: 'BRENNAN\'S CELLARS',
+  link: 'https://goo.gl/maps/xk5tWBriL562',
+  address: '8210 WATTS RD. MADISON, WI 53719',
+  location: { lat: 43.0556119, lng: -89.5244744 } },
+{ name: 'TOTAL WINE & MORE',
+  link: 'https://goo.gl/maps/XtTMNhahPym',
+  address: '17300 W BLUEMOUND RD. SUITE 200 BROOKFIELD, WI 53045',
+  location: { lat: 43.0377793, lng: -88.1283761 } },
+{ name: 'AVENUE WINE & LIQUOR',
+  link: 'https://goo.gl/maps/CJQEwAx81fLPz9TZ8',
+  address: '4075 S. HOWELL AVE. MILWAUKEE, WI 53207',
+  location: { lat: 42.9703118, lng: -87.9098769 } },
+{ name: 'MAHEN\'S LIQUOR',
+  link: 'https://goo.gl/maps/PjMxYGowo3H2',
+  address: '905 N MAIN ST. OREGON, WI 53575',
+  location: { lat: 42.9403118, lng: -89.3838395 } },
+{ name: 'LAKESIDE LIQUOR',
+  link: 'https://goo.gl/maps/cF36HXGKaGmBKHpt6',
+  address: '214 N MAIN ST. PARDEEVILLE, WI 53954',
+  location: { lat: 43.5393474, lng: -89.299543 } },
+{ name: 'STAR LIQUOR',
+  link: 'https://g.page/star-liquor-madison?share',
+  address: '1209 WILLIAMSON ST. MADISON, WI 53703',
+  location: { lat: 43.0832907, lng: -89.3637955 } },
+{ name: 'DISCOUNT LIQUOR',
+  link: 'https://goo.gl/maps/pDYThBxjAzkQBBkw9',
+  address: '5031 W. OKLAHOMA AVE. MILWAUKEE, WI 53219',
+  location: { lat: 42.9880917, lng: -87.9775021 } },
+{ name: 'TRIXIE\'S LIQUOR',
+  link: 'https://goo.gl/maps/Secx2DvMLR32',
+  address: '246 OAK ST. MADISON, WI 53704',
+  location: { lat: 43.1029908, lng: -89.3435724 } },
+{ name: 'BADGER SPIRITS',
+  link: 'https://goo.gl/maps/jJDWZQjvy4WQJS2S9',
+  address: '1507 CENTER AVE. JANESVILLE, WI 53546',
+  location: { lat: 42.6586737, lng: -89.030702 } },
+{ name: 'STINEBRIKE\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/CD4iRJwWN98qJaw47',
+  address: '100 E. GENEVA SQUARE LAKE GENEVA, WI 53147',
+  location: { lat: 42.6060646, lng: -88.4239073 } },
+{ name: 'FRANK\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/uvqyac7wa6AZreij6',
+  address: '58 W. MARKET ST. ELKHORN, WI 53121',
+  location: { lat: 42.6924352, lng: -88.5440261 } },
+{ name: 'BARRIQUES - MONROE ST.',
+  link: 'https://goo.gl/maps/G3bL9BMNjwtrkVZU8',
+  address: '1825 MONROE ST. MADISON, WI 53711',
+  location: { lat: 43.06504229999999, lng: -89.41671400000001 } },
+{ name: 'TOTAL WINE & MORE',
+  link: 'https://goo.gl/maps/oHnydLeMj712',
+  address: '400 W TOWNE MALL MADISON, WI 53719',
+  location: { lat: 43.0553514, lng: -89.50550849999999 } },
+{ name: 'TOBACCO SHACK LIQUOR',
+  link: 'https://goo.gl/maps/cou7RgV1CLcREMPL9',
+  address: '1212 CRANSTON RD. BELOIT, WI 53511',
+  location: { lat: 42.5320178, lng: -89.02254599999999 } },
+{ name: 'MC FARLAND LIQUORS',
+  link: 'https://goo.gl/maps/nnTvXoxeQBy8zsU57',
+  address: '4716 FARWELL ST. MCFARLAND, WI 53558',
+  location: { lat: 43.01361989999999, lng: -89.30096739999999 } },
+{ name: 'GENEVA LIQUORS',
+  link: 'https://goo.gl/maps/dvsLs7K3MJv7y4xj6',
+  address: '797 S. WELLS ST. LAKE GENEVA, WI 53147',
+  location: { lat: 42.5827822, lng: -88.42467429999999 } },
+{ name: 'TOTAL WINE & MORE',
+  link: 'https://goo.gl/maps/2dPeCWnusVP2',
+  address: '8700 WEST SURA LANE GREENFIELD, WI 53228',
+  location: { lat: 42.9602443, lng: -88.0207746 } },
+{ name: 'ROY\'S MARKET',
+  link: 'https://goo.gl/maps/sfLFZhWUsrxuWrbE9',
+  address: '600 WI-69 NEW GLARUS, WI 53574',
+  location: { lat: 42.8137538, lng: -89.6306815 } },
+{ name: 'BARRIQUES - MIDDLETON',
+  link: 'https://goo.gl/maps/yN6xREHLfiezUNNN6',
+  address: '1901 CAYUGA ST. MIDDLETON, WI 53562',
+  location: { lat: 43.0961045, lng: -89.513787 } },
+{ name: 'CONSUMER OUTLET BEVERAGE',
+  link: 'https://goo.gl/maps/pgysXX5efARHM5Ju6',
+  address: '5313 S. 108TH ST. HALES CORNERS, WI 53130',
+  location: { lat: 42.9483202, lng: -88.0495275 } },
+{ name: 'WIPPERFURTH\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/ek7vZ5PSEKVXyM7q9',
+  address: '205 N. HOLIDAY DR. WAUNAKEE, WI 53597',
+  location: { lat: 43.1933002, lng: -89.46607949999999 } },
+{ name: 'BADGER LIQUOR STORE',
+  link: 'https://goo.gl/maps/Tzyy9AeYeq7iryQu6',
+  address: '1047 W. MASON ST. GREEN BAY, WI 54303',
+  location: { lat: 44.5148682, lng: -88.041167 } },
+{ name: 'HY-VEE',
+  link: 'https://goo.gl/maps/2zyeXbenREeuUprFA',
+  address: '3801 E. WASHINGTON AVE. MADISON, WI 53704',
+  location: { lat: 43.1177159, lng: -89.3183571 } },
+{ name: 'RAY\'S WINE & SPIRITS',
+  link: 'https://goo.gl/maps/ypevbeVHJLC2',
+  address: '8930 W NORTH AVE. WAUWATOSA, WI 53226',
+  location: { lat: 43.060726, lng: -88.02444039999999 } },
+{ name: 'STEVE\'S WINE BEER & SPIRITS',
+  link: 'https://goo.gl/maps/YQ4B1vpUoNjpfgU97',
+  address: '6227 MCKEE RD. FITCHBURG, WI 53719',
+  location: { lat: 43.01488070000001, lng: -89.47650680000001 } },
+{ name: 'SONOMA CELLARS',
+  link: 'https://goo.gl/maps/JRBJfhN4TWzNtf34A',
+  address: '1290 SUMMIT AVE. OCONOMOWOC, WI 53066',
+  location: { lat: 43.0899577, lng: -88.4731322 } },
+{ name: 'METCALFE\'S MARKET',
+  link: 'https://goo.gl/maps/h4XwJTXmgnrRmoVbA',
+  address: '7455 MINERAL POINT RD. MADISON, WI 53719',
+  location: { lat: 43.057899, lng: -89.51052 } },
+{ name: 'SONOMA CELLARS LLC',
+  link: 'https://goo.gl/maps/LhGbXQGDcjwZCEhz6',
+  address: '1807 GENEVA ST. DELAVAN, WI 53115',
+  location: { lat: 42.6284394, lng: -88.6133151 } },
+{ name: 'STINEBRIKE\'S PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/BwvpE4zU7zycdHZm8',
+  address: '1414 GENEVA ST. DELEVAN, WI 53115',
+  location: { lat: 42.625543, lng: -88.62368269999999 } },
+{ name: 'PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/MnGEB7hjZT4XKHW88',
+  address: '1827 PRAIRIE AVE, BELOIT, WI 53511',
+  location: { lat: 42.5238664, lng: -89.010016 },
+  added: 1580825385007 },
+{ name: 'VIKING LIQUOR',
+  link: 'https://goo.gl/maps/oHE5U8VMNrpA3cHdA',
+  address: '1625 E MAIN ST, REEDSBURG, WI 53959',
+  location: { lat: 43.533082, lng: -89.98559399999999 },
+  added: 1580825385012 },
+{ name: 'PIGGLY WIGGLY',
+  link: 'https://goo.gl/maps/1mWoJwatCj3P8PPfA',
+  address: '8 N COUNTY RD M, EVANSVILLE, WI 53536',
+  location: { lat: 42.7798771, lng: -89.27337159999999 },
+  added: 1580825385013 },
+{ name: 'SAUK PRAIRIE MAR,KET',
+  link: 'https://goo.gl/maps/m51dFgCdpWhEuBvt7',
+  address: '645 3RD ST, PRAIRIE DU SAC, WI 53578',
+  location: { lat: 43.29237759999999, lng: -89.723396 },
+  added: 1580825385104 }
+];
+            function initMap() {
+                var bounds = new google.maps.LatLngBounds();
+                var map = new google.maps.Map(document.getElementById('map'));
+                for (var i in addresses) {
+                    mark(map, addresses[i], bounds);
+                }
+            }
+            function mark(map, address, bounds) {
+                var icon = 'https://maps.gstatic.com/mapfiles/markers2/marker.png';
+                var now = new Date().getTime();
+                if (now - address.added < 2592000000) {
+                  // location was added less than 30 days ago
+                  icon = 'https://maps.gstatic.com/mapfiles/markers2/icon_green.png';
+                }
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: address.location,
+                    icon: icon,
+                    title: address.name
+                });
+                var infowindow = new google.maps.InfoWindow({
+                    content: '<div id="content">' +
+                    '    <div id="siteNotice">' +
+                    '    </div>' +
+                    '    <div>' +
+                    '        <p>' + address.name + '</p>' +
+                    '        <a target="_blank" href="' + address.link + '">' + address.address + '</a></p>' +
+                    '    </div>' +
+                    '</div>'
+                });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+                bounds.extend(marker.getPosition());
+                map.fitBounds(bounds);
+            }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG3cQZKjSHLPDCJ9xnzAMFCmsEqWX7l1c&callback=initMap"></script>
+            <!--
+            <div class="container">
+                <br />
+                <p><b>NEW LOCATIONS!</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            CANNERY WINE & SPIRITS<br/>
+                            <a class="address" target="_blank" href="https://g.page/cannery-wine-and-spirits?share">
+                                1120 W. MAIN ST. STE. 2<br />SUN PRAIRIE, WI 53590
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BADGER SPIRITS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/jJDWZQjvy4WQJS2S9">
+                                1507 CENTER AVE.<br />JANESVILLE, WI 53546
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            TOBACCO SHACK LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/cou7RgV1CLcREMPL9">
+                                1212 CRANSTON RD.<br />BELOIT, WI 53511
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            CONSUMER OUTLET BEVERAGE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/pgysXX5efARHM5Ju6">
+                                5313 S. 108TH ST.<br />HALES CORNERS, WI 53130
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>BROWN COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BADGER LIQUOR STORE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/Tzyy9AeYeq7iryQu6">
+                                1047 W. MASON ST.<br />GREEN BAY, WI 54303
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>COLUMBIA COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            LAKESIDE LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/cF36HXGKaGmBKHpt6">
+                                214 N MAIN ST.<br />PARDEEVILLE, WI 53954
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>DANE COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            VERONA WINE CELLAR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/xihA8SyZL1eCzStZ6">
+                                1015 N. EDGE TRAIL<br />VERONA, WI 53593
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            STAR LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://www.google.com/maps/place/Star+Liquor/@43.0834016,-89.3650191,18z/data=!3m1!4b1!4m5!3m4!1s0x880653771e9571db:0xa9da71c8066bedb7!8m2!3d43.0834016!4d-89.3639248">
+                                1209 WILLIAMSON ST.<br />MADISON, WI 53703
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BARRIQUES - MONROE ST.<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/G3bL9BMNjwtrkVZU8">
+                                1825 MONROE ST.<br />MADISON, WI 53711
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            MILLER & SONS SUPERMARKET<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/C6Yo9Dzznc92">
+                                1845 SPRINGDALE ST.<br />MT. HOREB, WI 53572
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BARRIQUES - MIDDLETON<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/yN6xREHLfiezUNNN6">
+                                1901 CAYUGA ST.<br />MIDDLETON, WI 53562
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            NEIL'S LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/RPiyxjQ65CWMXs6g8">
+                                204 S CENTURY AVE. # B<br/>WAUNAKEE, WI 53597
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            WIPPERFURTH'S PIGGLY WIGGLY<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/ek7vZ5PSEKVXyM7q9">
+                                205 N. HOLIDAY DR.<br />WAUNAKEE, WI 53597
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            TRIXIE'S LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/Secx2DvMLR32">
+                                246 OAK ST.<br />MADISON, WI 53704
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            HY-VEE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/6yjfURQGeyLwq4GbA">
+                                2920 FITCHRONA RD.<br/>FITCHBURG, WI 53719
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            HY-VEE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/2zyeXbenREeuUprFA">
+                                3801 E. WASHINGTON AVE.<br/>MADISON, WI 53704
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            TOTAL WINE & MORE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/oHnydLeMj712">
+                                400 W TOWNE MALL<br/>MADISON, WI 53719
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            RILEY'S WINES OF THE WORLD<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/j36YUuQAGkYP35co6">
+                                402 W GORHAM ST.<br />MADISON, WI 53703
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            MC FARLAND LIQUORS<br/>
+                            <a class="address" target="_blank" href="https://www.google.com/maps/place/Mc+Farland+Liquors/@43.013625,-89.3031037,17z/data=!3m1!4b1!4m5!3m4!1s0x88064e2172fd9f5b:0x581aeae175ff6835!8m2!3d43.013625!4d-89.300915">
+                                4716 FARWELL ST.<br/>MCFARLAND, WI 53558
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BARRIQUES - FITCHBURG<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/naAtXxCYepDXoUFr6">
+                                5957 MCKEE RD.<br />FITCHBURG, WI 53719
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            STEVE'S WINE BEER & SPIRITS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/YQ4B1vpUoNjpfgU97">
+                                6227 MCKEE RD.<br />FITCHBURG, WI 53719
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            METCALFE'S MARKET<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/h4XwJTXmgnrRmoVbA">
+                                7455 MINERAL POINT RD.<br/>MADISON, WI 53719
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BRENNAN'S CELLARS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/xk5tWBriL562">
+                                8210 WATTS RD.<br/>MADISON, WI 53719
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            MAHEN'S LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/PjMxYGowo3H2">
+                                905 N MAIN ST.<br/>OREGON, WI 53575
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            STOUGHTON SPIRITS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/NMACtv8E1tJ2">
+                                965 N PAGE ST.<br />STOUGHTON, WI 53589
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>GREEN COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            ROY'S MARKET<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/sfLFZhWUsrxuWrbE9">
+                                600 WI-69<br />NEW GLARUS, WI 53574
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>MILWAUKEE COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            AVENUE WINE & LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/CJQEwAx81fLPz9TZ8">
+                                4075 S. HOWELL AVE.<br />MILWAUKEE, WI 53207
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            DISCOUNT LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/pDYThBxjAzkQBBkw9">
+                                5031 W. OKLAHOMA AVE.<br/>MILWAUKEE, WI 53219
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            TOTAL WINE & MORE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/2dPeCWnusVP2">
+                                8700 WEST SURA LANE<br />GREENFIELD, WI 53228
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            RAY'S WINE & SPIRITS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/ypevbeVHJLC2">
+                                8930 W NORTH AVE.<br/>WAUWATOSA, WI 53226
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>ROCK COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            HAPPY HOUSE LIQUOR<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/2w4LtPxeDsSWNQjW7">
+                                1121 ELMWOOD AVE.<br />BELOIT, WI 53511
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>WALWORTH COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            STINEBRIKE'S PIGGLY WIGGLY<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/CD4iRJwWN98qJaw47">
+                                100 E. GENEVA SQUARE<br />LAKE GENEVA, WI 53147
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            STINEBRIKE'S PIGGLY WIGGLY<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/BwvpE4zU7zycdHZm8">
+                                1414 GENEVA ST.<br />DELEVAN, WI 53115
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            SONOMA CELLARS LLC<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/LhGbXQGDcjwZCEhz6">
+                                1807 GENEVA ST.<br />DELAVAN, WI 53115
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            FRANK'S PIGGLY WIGGLY<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/uvqyac7wa6AZreij6">
+                                58 W. MARKET ST.<br />ELKHORN, WI 53121
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            GENEVA LIQUORS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/dvsLs7K3MJv7y4xj6">
+                                797 S. WELLS ST.<br />LAKE GENEVA, WI 53147
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <br />
+                <p><b>WAUKESHA COUNTY</b></p>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            BREWS WINE & SPIRITS LLC<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/FaHYiMW4VM7A58xf7">
+                                1256 CAPITOL DR. #600<br />PEWAUKEE, WI 53072
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            SENDIK'S FINE FOODS<br/>
+                            <a class="address" target="_blank" href="https://g.page/sendiksfinefoods?share">
+                                2704, 18985 W. CAPITOL DR.<br />BROOKFIELD, WI 53045
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            SONOMA CELLARS<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/JRBJfhN4TWzNtf34A">
+                                1290 SUMMIT AVE.<br />OCONOMOWOC, WI 53066
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box">
+                            TOTAL WINE & MORE<br/>
+                            <a class="address" target="_blank" href="https://goo.gl/maps/XtTMNhahPym">
+                                17300 W BLUEMOUND RD. SUITE 200<br />BROOKFIELD, WI 53045
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            -->
+            <footer>
+                <p>Our ciders are on tap at a number of bars and restaurants in Madison and Milwaukee.</p>
+                <p>If you are interested in selling our product and appearing on this list, please contact us below:</p>
+                <a href="#contact" class="button big scrolly">Contact Us</a>
+            </footer>
+        </article>
+    </div>
+
+    <!-- Pressing -->
+    <!--
+    <div class="wrapper style3">
+        <article id="pressing">
+            <header>
+                <h2>Cider Pressing</h2>
+                <p>We have the capability to custom press apples for juice or other applications for members of our co op.  We employ three presses.  Our small, wooden, romantic reproduction Happy Valley Press has excelled at attracting kids at county fairs, store events, and church functions, among other guest appearances.  Our Sun Press is a 2 x 2 hydraulic rack and cloth combined with a stainless grinder.  It is thorough, loud, and slower than our main press.  It’s versatile, doing a great job on both apples and pears.  Our Frontier Belt press is capable of 100 gallons per hour.  We pre-wash and inspect our incoming apples.  They are then lifted by elevator to a brush washer where they are thoroughly cleaned.  From there, they drop into a hopper for grinding which produces a pomace suitable for efficient pressing.  Juice output is filtered and stored in a balance tank until it is pumped into our CiderSure where it is UV treated to meet USDA health requirements  Our Cherry Burrell filler is capable of sanitary filling of gallons, half gallons, and pints.  Please <a class="scrolly" href="#contact">contact us</a> for details on co-op membership requirements and cost.</p>
+            </header>
+            <footer>
+                <a href="#events" class="button big scrolly">Pressing Events</a>
+            </footer>
+        </article>
+    </div>
+    -->
+
+    <!-- Contact -->
+    <div class="wrapper style4">
+        <article id="contact" class="container 75%">
+            <header>
+                <h2>Contact Us</h2>
+                <h3>Sales and customer service</h3>
+                <p>Francis Friend | <a href="mailto:Sales.CiderHouse@gmail.com">Sales.CiderHouse@gmail.com</a> | (608) 616-5592</p>
+                <br />
+                <ul class="social">
+                    <li><a target="_blank" href="https://www.facebook.com/CiderHouseWI" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/CiderHouseWI" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                </ul>
+            </header>
+            <footer>
+                <ul id="copyright">
+                    <li>&copy; Cider House of Wisconsin. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
+        </article>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
